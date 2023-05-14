@@ -1,0 +1,89 @@
+body{
+	background-color: #f4f4f4;/* edeef0-vk, dedede */
+}
+
+.main_menu, .main_menu_fake{
+	float: left;
+	background-color: #edeef0;/* edeef0-vk, dedede */
+	min-height: 20cm;
+	overflow: none;
+	min-width: 5.5cm;
+	width: 25%;
+	padding-top: 1.25cm;
+}
+.main_menu{
+	position: fixed;
+	z-index: 2;
+	height: 100%;
+}
+.main_menu_fake{
+	left: 0px;
+	min-height: 15cm;
+}
+.menu_status{
+	height: 1cm;
+	width: 100%;
+	margin-bottom: 0.3cm;
+	margin-top: 0.5cm;
+}
+.menu_status_icon{
+	width: 1cm;
+	height: 1cm;
+	float: left;
+	padding-left: 5%;
+	overflow: hidden;
+	line-height: 0.5cm;
+}
+.skopka{
+	display: inline;
+	font-family: MS PMincho;
+}
+.menu_status_text{
+	display: inline;
+}
+.menu_element, .menu_selected_element{
+	height: 1.2cm;
+	line-height: 1.2cm;
+	width: 94%;
+	padding-left: 6%;
+	font-size: 20px;
+	font-family: Segoe UI Semilight;
+	/* font-family: Segoe UI Light; */
+	/* font-family: Levenim MT; */
+	/* font-family: Kalinga; */
+	/* font-family: MS PMincho; */
+	/* font-family: Eras Light ITC; */
+	/* font-family: Calibri Light; */
+	/* font-family: Century Gothic; */
+	/* font-family: Century; */
+	cursor: pointer;
+}
+.menu_element{
+	background: none;
+	color: #242424;
+}
+.menu_selected_element{
+	background-color: #008aee;  /* - täze*/ 
+	color: #ffffff;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.menu_selected_element:hover{
+	background-color: #006dbc; /* hover taze */
+}
+.menu_element:hover{
+	background-color: #cccccc;
+	cursor: pointer;
+}
+.menu_linker{
+	text-decoration: none;
+}
+.element_ico{
+	width: 0.6cm;
+	height: 0.6cm;
+	float: left;
+	margin-top: 0.3cm;
+	margin-right: 0.2cm;
+	border: none;
+}

@@ -1,0 +1,52 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: #f4f4f4;
+	overflow-Y: none;
+}
+li{
+	margin: 0px;
+	list-style: none;
+}
+.header{
+	position: fixed;
+	z-index: 5;
+	width: 100%;
+	height: 1.25cm;
+	margin-bottom: 0px;
+	background-color: #008aee;  /* 1faeff rgba(0, 138, 238);*/ 
+}
+.profile_field{
+	float: left;
+	margin-right: 0.25cm;
+	margin-top: 0.02cm;
+	height: 1.2cm;
+	line-height: 1.2cm;
+	margin-left: 0.4cm;
+	padding-left: 0.1cm;
+}
+.profile_field:hover{
+	background-color: #006dbc; /* hover taze */
+}
+.profile_field #user_img{
+	width: 1.2cm;
+	height: 1.15cm;
+	border-radius: 50%;
+	/* border: 1px solid #1faeff; */
+	float: left;
+	margin:0px;
+	margin-top: 0.025cm;
+	cursor: pointer;
+}
+.profile_field #user_name{
+	font-family: Levenim MT;
+	font-size: 20px;
+	cursor: pointer;
+	color: #ffffff;
+	float: left;
+	margin:0px;
+	margin-left: 0.25cm;
+	padding-right: 0.1cm;
+}

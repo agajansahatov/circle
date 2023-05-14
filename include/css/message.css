@@ -1,0 +1,377 @@
+.main{
+	width: 100%;
+	min-width: 15.5cm;
+}
+.main_body{
+	float: left;
+	width: 70%;
+	min-height: 15cm;
+}
+@media screen and (max-width: 700px){
+	.main_body{
+		width: 60%;
+	}
+}
+@media screen and (min-width: 1000px){
+	.main_body{
+		width: 75%;
+	}
+}
+/* MESSAGE_FIELD_TOP*/
+.message_field_top_outside{
+	position: fixed;
+	background-color: #f4f4f4;/* edeef0-vk, dedede */
+	margin-top: 0cm;
+	width: 75%;
+	height: 3.25cm;
+	display: block;
+	z-index: 2;
+}
+@media screen and (max-width: 700px) {
+	.message_field_top_outside{ /* main body bilen den bolmaly*/
+		width: 60%;
+	}
+}
+@media screen and (min-width: 701px) and (max-width: 999px) {
+	.message_field_top_outside{ /* main body bilen den bolmaly*/
+		width: 70%;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.message_field_top_outside{ /* main body bilen den bolmaly*/
+		width: 75%;
+	}
+}
+.message_field_top{
+	margin-top: 1.75cm;
+	height: 1.5cm;
+	width: 95%;
+	min-width: 9.5cm;
+	max-width: 18cm;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #cecece;
+	border-bottom: 1px solid #e3e3e3;
+	background-color: #ffffff;
+	border-radius: 4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	-moz-border-radius: 4px 4px 0px 0px;
+}
+.back_field{
+	float: left;
+	width: 20%;
+	height: 1.5cm;
+	line-height: 1.5cm;
+	overflow: hidden;
+}
+.back_field:hover{
+	background-color: #f8f8f8;
+}
+.back_field:hover .back_field_text{
+	color: #008aee;
+}
+.back_icon{
+	display: inline;
+	color: #a3a3a3;
+	font-size: 18px;
+	font-family: Euphemia, FangSong, MS UI Gothic, Sans Serif;
+	margin-left: 0.5cm;
+	cursor: default;
+}
+.back_field_text{
+	display: inline;
+	color: #454545;
+	font-size: 18px;
+	font-family: Segoe UI Semilight;
+	margin-left: 0.25cm;
+	cursor: default;
+}
+.msg_user_inf_field{
+	width: 60%;
+	height: 1.5cm;
+	float: left;
+	text-align: center;
+}
+.msg_user_name{
+	font-family: Levenim MT;
+	font-size: 16px;
+	color: #242424;
+	cursor: pointer;
+	display: block;
+	margin-top: 0.2cm;
+	margin-bottom: -0.1cm;
+}
+.msg_user_status{
+	font-family: Segoe UI Semilight;
+	font-size: 14px;
+	color: #3f3f3f;
+	cursor: pointer;
+	display: block;
+}
+.msg_user_image{
+	float: right;
+	width: 1.3cm;
+	height: 1.3cm;
+	margin-top: 0.1cm;
+	margin-right: 0.5cm;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.message_field{
+	width: 95%;
+	min-width: 9.5cm;
+	max-width: 18cm;
+	min-height: 50cm;
+	margin: auto;
+	border-right: 1px solid #cecece;
+	border-left: 1px solid #cecece;
+	border-top: none;
+	border-bottom: none;
+	padding-top: 3.5cm;
+	padding-bottom: 2cm;
+	background-color: #ffffff;
+	height: 100%;
+	overflow: hidden;
+}
+
+.my_msg_field, .friend_msg_field{
+	margin-top: 0.1cm;
+	min-height: 1.5cm;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+.my_msg_image_field{
+	width: 1.5cm;
+	height: 1.5cm;
+	float: right;
+}
+.my_msg_image{
+	width: 1cm;
+	height: 1cm;
+	border-radius: 50%;
+	margin-right: 0.5cm;
+	float: right;
+	cursor: pointer;
+}
+.my_msg, .friend_msg{
+	min-width: 3.5cm;
+	width: auto;
+	padding: 0.1cm;
+	border: 1px solid #1191ee;
+	font-size: 18px;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0, 0.3);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0, 0.3);
+	box-shadow: 0 0 5px rgba(0,0,0, 0.3);
+}
+.my_msg_outside{
+	min-width: 4cm;
+	max-width: 50%;
+	height: auto;
+	float: right;
+}
+.mmi_user_name{
+	text-align: right;
+	padding-right: 0.25cm;
+	margin-right: 1.5cm;
+	font-family: Sans Serif;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	color: #242424;
+	opacity: 0.8;
+}
+.my_msg{
+	border-radius: 20px 0px 20px 20px;
+	-webkit-border-radius: 20px 0px 20px 20px;
+	-moz-border-radius: 20px 0px 20px 20px;
+	margin-right: 0.25cm;
+	float: right;
+}
+.my_msg_inf{
+	width: 100%;
+	line-height: 0.5cm;
+	height: 0.5cm;
+	font-size: 16px;
+	text-align: right;
+}
+.mmi_read{
+	float: right;
+	color: #909090;
+	font-family: Segoe UI;
+	font-size: 12px;
+	opacity: 0.8;
+	margin-right: 0.25cm;
+}
+.mmi_time{
+	float: left;
+	font-family: Sans Serif;
+	font-size: 12px;
+	color: #909090;
+	margin-right: 0.5cm;
+}
+
+.friend_msg_outside{
+	min-width: 6cm;
+	max-width: 60%;
+	height: auto;
+	float: left;
+}
+.friend_msg_image_field{
+	width: 1.5cm;
+	height: 1.5cm;
+	float: left;
+}
+.friend_msg_image{
+	width: 1cm;
+	height: 1cm;
+	border-radius: 50%;
+	margin-left: 0.5cm;
+	cursor: pointer;
+}
+.fmi_user_name{
+	padding-left: 0.25cm;
+	margin-left: 1.5cm;
+	font-family: Sans Serif;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	color: #004064;
+}
+.friend_msg{
+	border-radius: 0px 10px 10px 10px;
+	-webkit-border-radius: 0px 10px 10px 10px;
+	-moz-border-radius: 0px 10px 10px 10px;
+	margin-left: 0.25cm;
+	float: left;
+}
+.friend_msg_inf{
+	width: 100%;
+	line-height: 0.5cm;
+	height: 0.5cm;
+	font-size: 16px;
+	text-align: left;
+}
+.fmi_read{
+	float: left;
+	color: #909090;
+	font-family: Segoe UI;
+	font-size: 12px;
+	opacity: 0.8;
+	margin-left: 0.25cm;
+}
+.fmi_time{
+	float: right;
+	font-family: Sans Serif;
+	font-size: 12px;
+	color: #909090;
+	float: right;
+}
+
+/*  MESSAGE_FIELD_BOTTOM */
+.message_field_bottom_outside{
+	z-index: 2;
+	position: fixed;
+	background-color: #f4f4f4;/* edeef0-vk, dedede */
+	top: 85%;
+	width: 75%;
+	height: 15%;
+	display: block;
+}
+@media screen and (max-width: 700px) {
+	.message_field_bottom_outside{ /* main body bilen den bolmaly*/
+		width: 60%;
+	}
+}
+@media screen and (min-width: 701px) and (max-width: 999px) {
+	.message_field_bottom_outside{ /* main body bilen den bolmaly*/
+		width: 70%;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.message_field_bottom_outside{ /* main body bilen den bolmaly*/
+		width: 75%;
+	}
+}
+.message_field_bottom{
+	height: 1.5cm;
+	width: 95%;
+	min-width: 9.5cm;
+	max-width: 18cm;
+	margin: auto;
+	border: 1px solid #cecece;
+	border-top: 1px solid #e3e3e3;
+	background-color: #ffffff;
+	border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	-moz-border-radius: 0px 0px 4px 4px;
+}
+.write_msg_field{
+	float: left;
+	width: 75%;
+	height: 1cm;
+	margin-top: 0.25cm;
+	margin-left: 0.5cm;
+	border-radius: 6px;
+	background-color: #ffffff;
+	border: 1px solid #e3e3e3;
+}
+.write_msg_field:hover{
+	box-shadow: 1px 3px 10px 0px #e3e3e3;
+}
+@media screen and (min-width: 701px) and (max-width: 999px) {
+	.write_msg_field{
+		width: 82%;
+	}
+}
+@media screen and (min-width: 1000px){
+	.write_msg_field{
+		width: 87%;
+	}
+}
+.message{
+	float: left;
+	height: 0.8cm;
+	width: 60%;
+	margin-top: 0.1cm;
+	border: none;
+	margin-left: 0.5cm;
+	outline: none;
+	font-size: 16px;
+	font-family: Segoe UI;
+}
+.emoji_ico{
+	width: 0.6cm;
+	height: 0.6сm;
+	float: right;
+	margin-top: 0.2cm;
+	margin-right: 0.2cm;
+	cursor: pointer;
+}
+.file_ico{
+	float: right;
+	width: 0.5cm;
+	height: 0.5сm;
+	margin-top: 0.2cm;
+	margin-right: 0.2cm;
+}
+.btn_send{
+	float: right;
+	width: 1cm;
+	height: 0.8cm;
+	margin-top: 0.35cm;
+	border: none;
+	background: none;
+	margin-right: -1cm;
+	cursor: pointer;
+	color: #8c94a2;
+}
+#send_icon{
+	float: right;
+	width: 1cm;
+	height: 0.8cm;
+	margin-top: 0.35cm;
+	cursor: default;
+	margin-right: 0.25cm;
+}

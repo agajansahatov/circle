@@ -1,0 +1,224 @@
+﻿@charset "utf-8";
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-size: 16px;
+	font-weight: normal;
+}
+li{
+	margin: 0px;
+	list-style: none;
+}
+.txt_field:focus{
+	box-shadow: 1px 1px 8px 1px #0089ed;
+	border: 1px solid white;
+	outline: none;
+}
+.txt_field:hover, .select_birthday:hover, .select_gender:hover, .btn:hover{
+	box-shadow: 1px 0px 5px 1px #0089ed;
+	border: 1px solid #076cb5;
+	outline: none;
+}
+.css_status_js{
+	margin-top: -5px;
+	margin-left: 5px;
+	margin-bottom: -1.5cm;
+	min-width: 6cm;
+	position: absolute;
+	display: none;
+}
+.status_top_png{
+	height: 0.25cm;
+	width: 0.45cm;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 0.5cm;
+}
+.js_status_field{	
+	min-height: 0.83cm;
+	margin-top: -5px;
+	border: 1px solid #7a7a7a;
+	box-shadow: 0px 0px 2px 2px #e3e3e3;
+	background-color: white;
+	border-radius: 3px;
+	padding: 0px;
+	text-align: center; 
+}
+.warner_png{
+	height: 0.6cm;
+	width: 0.6cm;
+	float: left;
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-right: 5px;
+	padding: 0px;
+}
+.warner_text{
+	margin-top: 6px;
+	font-size: 18px;
+	color: #2d2d2d;
+	margin-bottom: 3px;
+	margin-right: 3px;
+}
+.header .field_back{
+	float: right;
+	width: 0.75cm;
+	height: 0.75cm;
+	padding: 0px;
+	border-radius: 50%;
+	margin-top: 0.14cm;
+	border: 3px solid #ffffff;
+	margin-right: 3%;
+}
+.header .field_back:hover{
+	background-color: #0279cf;
+	border-color: #cfe6f7;
+}
+.header #back_icon{
+	margin-top: 0.13cm;
+	margin-left: 0.122cm;
+	width: 0.5cm;
+	height: 0.5cm;
+}
+
+/* header part */
+.header{
+	width: 100%;
+	background-color: #008aee;
+	height: 1.25cm;
+	margin-bottom: 0px;
+}
+.header #logo{
+	float: left;
+	padding: 0px;
+	width: 1.3cm;
+	height: 1.25cm;
+	border-radius: 50%;
+	margin-left: 0.5cm;
+	-webkit-transition: margin-left 0.5s;
+	-moz-transition: margin-left 0.5s;
+	transition: margin-left 0.5s;
+	cursor: pointer;
+}
+.header #site_name{
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Sans Serif;
+	color: white;
+	margin-left: 10px;
+	margin-top: 5px;
+	float: left;
+}
+/* main part */
+.section{
+	width: 80%;
+	min-width: 7cm;
+	max-width: 9.5cm;
+	margin: auto;
+	margin-top: 1cm;
+	box-shadow: 0px 0px 5px rgba(0,0,0, .3);
+	border-radius: 10px;
+	border: 1px solid #e3e3e3;
+	/* box-shadow: 0px 0px 5px rgba(0,0,0, .3); */
+}
+.section .section_title{
+	min-width: 10cm;
+	width: 100%;
+	margin: 0px;
+	margin-left: -0.3cm;
+}
+.section .section_body{
+	box-shadow: 0px 0px 5px rgba(0,0,0, .3);
+	border-radius: 10px;
+	margin-top: 0.5cm;
+	width: 100%;
+}
+.section_header{
+	display: block;
+	width: 100%;
+	border-radius: 8px 8px 0px 0px;
+	border-bottom: 1px solid rgba(0,0,0, .3); 
+	background-color: #008aee;
+}
+.section_header #app_name{
+	padding-top: 0.5cm;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	text-align: center;
+	display: block;
+}
+.section_header #registration{
+	display: block;
+	font-size: 20px;
+	color: white;
+	font-family: Sans Serif;
+	text-align: center;
+	padding-bottom: 0.5cm;
+}
+.section_main{
+	display: block;
+	min-width: 6.4cm;
+	width: 90%;
+	margin: auto;
+	padding-bottom: 5%;
+}
+.section_main #field_1{
+	margin-top: 60px; 
+}
+.section_main label{
+	font-size: 20px;
+}
+.txt_field{
+	width: 97%;
+	min-width: 6.4cm; 
+	height: 0.8cm;
+	border: 1px solid #949494;
+	font-size: 16px;
+	border-radius: 4px;
+	font-weight: normal;
+	margin-top: 5px;
+	outline: none;
+	padding-left: 10px;
+	-webkit-appearance: none;
+	background-color: white;
+}
+.btn{
+	border: none;
+	width: 40%;
+	max-width: 3cm; 
+	min-width: 2cm; 
+	height: 1cm;
+	background-color: #0089ed;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-top: -10px;
+}
+.check{
+	float: left;
+	margin-top: 10px;
+}
+#terms_field{
+	font-size: 18px;
+	margin-top: 40px;
+}
+.status{
+	text-align: center;
+	color: red;
+	border: 1px solid red;
+	padding-top: 0px;
+	margin-top: 35px;
+}
+.status li{
+	margin: 0px;
+	padding: 0px;
+}
+.status img{
+	width: 0.5cm;
+	height: 0.5cm;
+	float: left;
+}

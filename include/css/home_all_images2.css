@@ -1,0 +1,171 @@
+.all_images_field{
+	float: left;
+	margin-top: 0.25cm;
+	width: 6.2cm;
+	height: 11cm;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+#all_images_header{
+	height: 1.1cm;
+	line-height: 1.2cm;
+	border-bottom: 1px solid #f6f6f6;
+}
+#all_images_header_label{
+	color: #666666;
+	display: inline;
+	font-family: Levenim MT;
+	font-size: 16px;
+	margin-left: 0.3cm;
+	cursor: pointer;
+}
+#all_images_header_indicator{
+	display: inline;
+	margin-left: 0.1cm;
+	color: #00cccc;
+	font-family: Levenim MT;
+	font-size: 16px;
+}
+#btn_add_image{
+	float: right;
+	color: #008aee;  /* 1faeff */ 
+	font-family: Levenim MT;
+	font-size: 16px;
+	margin-right: 0.3cm;
+	cursor: pointer;
+}
+#btn_add_image:hover, #all_images_header_label:hover{
+	text-decoration: underline;
+}
+.images_field{ 
+	height: 9.5cm;
+	width: 94%;
+	margin-left: 3%;
+	border: none;
+	overflow: hidden;
+}
+.nav_user_all_images{
+	overflow: hidden;
+	height: 1.8cm;
+	width: 32%;
+	float: left;
+	margin-left: 1%;
+	margin-top: 0.5cm;
+}
+.user_all_images{
+	height: 1.8cm;
+	width: 1.8cm;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.user_all_images:hover{
+	border: 1px solid #00ddfe;
+	margin: -1px;
+}
+
+#prev_btn{
+	float: left;
+	margin-top: -5.25cm;
+	margin-left: 1%;
+	height: 1cm;
+	width: 1cm;
+	border: 3px solid #72c4ff;
+	background-color: rgba(0,0,0,.4);
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-transition: color 1.5s, background-color 1s;
+	-moz-transition: color 1.5s, background-color 1s;
+	transition: color 1.5s, background-color 1s;
+}
+#next_btn{
+	float: right;
+	margin-top: -5.25cm;
+	margin-right: 1%;
+	height: 1cm;
+	width: 1cm;
+	border: 3px solid #72c4ff;
+	background-color: rgba(0,0,0,.4);
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-transition: color 1.5s, background-color 1s;
+	-moz-transition: color 1.5s, background-color 1s;
+	transition: color 1.5s, background-color 1s;
+}
+#next_btn:hover, #prev_btn:hover{
+	border: 3px solid #00c2b7;
+	background-color: #0089ed;
+}
+#prev_icon{
+	height: 0.5cm;
+	width: 0.5cm;
+	margin-top: 0.25cm;
+	margin-left: 0.15cm;
+}
+#next_icon{
+	height: 0.5cm;
+	width: 0.5cm;
+	margin-top: 0.25cm;
+	margin-left: 0.31cm;
+}
+
+#header_upload{
+	text-align: center;
+	font-size: 35px;
+	font-family: Segoe UI Semilight;
+	color:  #0089ed;
+	padding-top: 1cm;
+	margin-left: 16%;
+}
+#file{
+	position: relative;
+	height: 1cm;
+	padding-top: 0.4cm;
+	text-align: center;
+	width: 60%;
+	padding-left: 10%;
+	margin: auto;
+	margin-top: 1cm;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	text-align: center;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin-left: 15%;
+}
+#file:hover{
+	border: 1px solid #000000;
+}
+#error_upload{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: -1cm;
+	margin-top: 0.5cm;
+	text-align: center;
+	color: #fe3000;
+}
+#btn_upload_image{
+	position: relative;
+	height: 1.5cm;
+	width: 60%;
+	margin: auto;
+	margin-top: 1.5cm;
+	background-color: #008aee;  /* 1faeff */ 
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Segoe UI Light;
+	border: none;
+	border-radius: 0.2cm;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin-left: 20%;
+}
+#btn_upload_image:hover{
+	background-color: #006dbc; /* hover taze */
+}

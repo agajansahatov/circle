@@ -1,0 +1,397 @@
+.main{
+	width: 100%;
+	height: 20cm;
+	min-width: 38.1cm;
+}
+.main_body{
+	float: left;
+	width: 29.5cm;
+	margin-left: 0.5cm;
+	min-height: 19cm;
+	height: 96%;
+	margin-top: 4%;
+	background-color: #f4f4f4;/* edeef0-vk, dedede */
+}
+li{
+	list-style: none;
+	padding: 0px;
+	text-decoration: none;
+}
+.first_notification{
+	width: 0%;
+	opacity: 1;
+	height: 1cm;
+	background-color: #e3e3e3;
+	color: white;
+	margin-top: 0cm;
+	transition: width 0.3s, opacity 2s;
+	-webkit-transition: width 0.3s, opacity 2s;
+	-moz-transition: width 0.3s, opacity 2s;
+	position: absolute;
+	float: left;
+}
+#first_notification_message{
+	opacity: 1;
+	margin-left: 0.5cm;
+	margin-top: 0.15cm;
+	padding-left: 10px;
+	padding-top: 0.1cm;
+	font-weight: bold;
+	display: none;	
+	transition: opacity 2s;
+	-webkit-transition: opacity 2s;
+	-moz-transition: opacity 2s;
+	float: left;
+}
+.main_first{
+	float: left;
+	width: 100%;
+	height: 10.5cm;
+	-webkit-transition: all 0.75s ease-in;
+	-moz-transition: all 0.75s ease-in;
+	transition: all 0.75s ease-in;
+}
+.main_second{
+	float: left;
+	width: 100%;
+	height: 6.5cm;
+	margin-top: 0.1cm;
+}
+.default_img_field, .main_inf_field, .all_images_field, .my_posts_field, .my_friends_field, .my_favourite_accounts{
+	background-color: #ffffff;
+	border-radius: 0.2cm;
+	margin: 0px;
+} 
+
+.default_img_field{
+	float: left;
+	width: 6.2cm;
+	height: 10.5cm;
+	margin-right: 1%;
+	margin-top: 0.3cm;
+	overflow: hidden;
+}
+#default_img_header{
+	height: 0.85cm;
+	padding-top: 0.3cm;
+	border-bottom: 1px solid #f6f6f6;
+	text-align: center;
+}
+#default_img_label{
+	color: #666666;
+	display: inline;
+	font-family: Levenim MT;
+	font-size: 18px;
+}
+#default_img_place{
+	margin-top: 0.3cm;
+	height: 6.5cm;
+	width: 96%;
+	margin-left: 2%;
+	overflow: hidden;
+	display: block;
+}
+#default_image{
+	max-height: 6.5cm;
+	width: 100%;
+	overflow: hidden;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+	cursor: pointer;
+	vertical-align:middle;
+}
+#default_img_place:hover #default_image{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+	margin: -1.1;
+}
+#anchor_edit_default_image{
+	text-decoration: none;
+	color: none;
+}
+#edit_default_image{
+	margin-top: 0.6cm;
+	width: 75%;
+	margin-left: 12.5%;
+	height: 1cm;
+	line-height: 1cm;
+	text-align: center;
+	background-color: #008aee;  /* - täze*/ 
+	color: #ffffff;
+	font-size: 16px;
+	font-family: Segoe UI Light;
+	border-radius: 0.05cm;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+#edit_default_image:hover{
+	background-color: #006dbc; /* hover taze */
+}
+
+.main_inf_field{
+	margin: 0px;
+	float: left;
+	margin-top: 0.3cm;
+	width: 22.5cm;
+	float: right;
+	margin-right: 0.5cm;
+	height: 5.7cm;
+	-webkit-transition: all 0.75s ease-in, margin-right 0.01s;
+	-moz-transition: all 0.75s ease-in, margin-right 0.01s;
+	transition: all 0.75s ease-in, margin-right 0.01s;
+}
+#basic_inf{
+	height: 1.5cm;
+	width: 93%;
+	margin: auto;
+	border-bottom: 1px solid #f6f6f6;
+	margin-bottom: -0.2cm;
+}
+#user_name{
+	font-family: Century Gothic;
+	font-size: 20px;
+	cursor: pointer;
+	color: #008aee;
+	margin-top: 0.45cm;
+	list-style: none;
+}
+#user_status{
+	font-family: Sans Serif;
+	font-size: 14px;
+	cursor: pointer;
+	color: #242424;
+	font-style: italic;
+	margin-top: 0.2cm;
+	list-style: none;
+}
+#main_inf{
+	width: 93%;
+	margin: auto;
+	height: 2.4cm;
+	overflow: hidden;
+	-webkit-transition: all 0.75s ease-in;
+	-moz-transition: all 0.75s ease-in;
+	transition: all 0.75s ease-in;
+}
+#main_inf li{
+	font-family: Levenim MT;
+	font-size: 14px;
+	margin-top: 0.5cm;
+}
+.subjects{
+	width: 30%;
+	float: left;
+}
+.subjects li{
+	color: #242424;
+	opacity: 0.7;
+}
+.values{
+	width: 30%;
+	float: left;
+}
+.values li{
+	color: #005184;
+}
+.operations{
+	width: 30%;
+	float: left;
+}
+.operations li{
+	color: #0089ed;
+}
+.operations a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #008aee; /* - täze*/ 
+}
+.operations a:hover, .btn_edit_all:hover{
+	text-decoration: underline;
+}
+.edit_more{
+	width: 10%;
+	float: left;
+}
+.btn_edit_all{
+	font-family: Levenim MT;
+	font-size: 14px;
+	margin-top: 0.5cm;
+	color: #008aee; /* - täze*/ 
+	float: right;
+	cursor: pointer;
+}
+.btn_show_more{
+	float: right;
+	width: 1.1cm;
+	height: 1.1cm;
+	padding: 0px;
+	border-radius: 50%;
+	margin-top: 0.1cm;
+	background-color: #008aee;  /* 1faeff */ 
+	margin-right: 3%;
+	cursor: pointer;
+	box-shadow: 0px -5px 15px 5px #f4f4f4;
+}
+.btn_show_more:hover{
+	background-color: #006dbc; /* hover taze */
+	border-color: #cfe6f7;
+}
+#show_more_icon{
+	margin-top: 0.3cm;
+	margin-left: 0.25cm;
+	width: 0.6cm;
+	height: 0.5cm;
+	border: none;
+}
+#indicators{
+	text-align: center;
+	width: 100%;
+	border-top: 1px solid #e3e3e3;
+	box-shadow: 0px -5px 15px 5px #f4f4f4;
+}
+.nav_inline{
+	float: left;
+	text-align: center;
+	width: 16.5%;
+	margin-top: 0.15cm;
+}
+.nav_inline li{
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	color: #008aee;
+	font-family: Levenim MT;
+}
+.nav_inline p{
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	color: #242424;
+	opacity: 0.7;
+	font-family: Levenim MT;
+}
+
+.my_friends_field{
+	float: left;
+	width: 6.2cm;
+	height: 6.5cm;
+	margin-top: 0.5cm;
+	margin-bottom: 0.1cm;
+	margin-right: 1%;
+	overflow: hidden;
+}
+#friends_header{
+	height: 0.8cm;
+	line-height: 0.8cm;
+	padding-top: 0.2cm;
+	border-bottom: 1px solid #f6f6f6;
+}
+#friends_label{
+	color: #666666;
+	display: inline;
+	font-family: Levenim MT;
+	font-size: 18px;
+	margin-left: 0.5cm;
+}
+#friends_indicator{
+	display: inline;
+	margin-left: 0.1cm;
+	color: #00cccc;
+	font-family: Levenim MT;
+	font-size: 18px;
+}
+.friend_field{
+	width: 32%;
+	height: 2.7cm;
+	margin-left: 1%;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	background: none;
+}
+.friend_image{
+	padding: 0px;
+	width: 1.5cm;
+	height: 1.5cm;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 0.25cm;
+	cursor: pointer;
+}
+.friend_image:hover{
+	border: 1px solid #00ddfe;
+	margin: -1px;
+	margin-top: 8.75px;
+}
+.friend_name{
+	margin: 0px;
+	padding: 0px;
+	color: #008aee;
+	text-decoration: none;
+	font-family: Segoe UI Semilight;
+	font-size: 16px;
+	cursor: pointer;
+}
+.friend_name:hover{
+	text-decoration: underline;
+}
+
+.my_favourite_accounts{
+	float: left;
+	width: 7.5cm;
+	height: 6.5cm;
+	margin-top: 0.5cm;
+	margin-right: 1%;
+	overflow: hidden;
+}
+#favourite_accounts_header{
+	height: 0.8cm;
+	padding-top: 0.2cm;
+	border-bottom: 1px solid #f6f6f6;
+}
+#favourite_accounts_label{
+	color: #666666;
+	display: inline;
+	font-family: Levenim MT;
+	font-size: 18px;
+	margin-left: 0.7cm;
+}
+#favourite_accounts_indicator{
+	display: inline;
+	margin-left: 0.1cm;
+	color: #00cccc;
+	font-family: Levenim MT;
+	font-size: 18px;
+}
+
+.my_posts_field{
+	float: right;
+	width: 14.5cm;
+	height: 6.5cm;
+	margin-right: 0.5cm;
+	margin-top: 0.5cm;
+	overflow: hidden;
+}
+#my_posts_header{
+	height: 0.8cm;
+	padding-top: 0.2cm;
+	border-bottom: 1px solid #f6f6f6;
+}
+#my_posts_label{
+	color: #666666;
+	display: inline;
+	font-family: Levenim MT;
+	font-size: 20px;
+	margin-left: 0.7cm;
+}
+#my_posts_indicator{
+	display: inline;
+	margin-left: 0.1cm;
+	color: #00cccc;
+	font-family: Levenim MT;
+	font-size: 20px;
+}

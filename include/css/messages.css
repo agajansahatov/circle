@@ -1,0 +1,299 @@
+.main{
+	width: 100%;
+	min-width: 15.5cm;
+}
+.main_body{
+	float: left;
+	width: 70%;
+	min-height: 15cm;
+}
+@media screen and (max-width: 700px){
+	.main_body{
+		width: 60%;
+	}
+}
+@media screen and (min-width: 1000px){
+	.main_body{
+		width: 75%;
+	}
+}
+/* chats_top */
+.chats_field_top_outside{
+	position: fixed;
+	background-color: #f4f4f4;
+	width: 70%;
+	height: 3.5cm; 
+	top: 1.25cm;
+}
+@media screen and (max-width: 700px){
+	.chats_field_top_outside{
+		width: 60%;
+	}
+}
+@media screen and (min-width: 1000px){
+	.chats_field_top_outside{
+		width: 75%;
+	}
+}
+.chats_field_top{
+	width: 90%;
+	min-width: 9.5cm;
+	max-width: 18cm;
+	margin: auto;
+	margin-top: 0.4cm;
+	height: 3.1cm; 
+	background-color: #ffffff;
+	border: 1px solid #e3e3e3;
+	border-radius: 4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	-moz-border-radius: 4px 4px 0px 0px;
+}
+.chats_menu{
+	height: 1.6cm;
+	width: 96%;
+	margin: auto;
+}
+.chats_menu a{
+	text-decoration: none;
+	color: none;
+}
+.chats_menu_element, .chats_selected_menu_element{
+	height: 1.5cm;
+	line-height: 1.5cm;
+	width: 31%;
+	margin-right: 2%;
+	float: left;
+	text-align: center;
+}
+.chats_menu_element{
+	border-bottom: 2px solid #eeeeee;
+}
+.chats_menu_element:hover{
+	border-bottom: 2px solid #555555;
+}
+.chats_selected_menu_element{
+	border-bottom: 2px solid #008aee;
+}
+.chats_selected_menu_element:hover{
+	border-bottom: 2px solid #006dbc;
+}
+.cme_header{
+	font-size:19px;
+	font-family: Segoe UI Light;
+	color: #454545;
+	display: inline;
+}
+.cme_indicator{
+	display: inline;
+	margin-left: 0.25cm;
+	color: #00cccc;
+	font-family: Levenim MT;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+.chats_top{
+	width: 100%;
+	height: 1.5cm;
+	border-bottom: 1px solid #eeeeee;
+}
+#search_ico{
+	float: left;
+	width: 0.6cm;
+	height: 0.6cm;
+	margin-top: 0.5cm;
+	margin-left: 0.5cm;
+}
+#search_field{
+	float: left;
+	width: 70%;
+	height: 1cm;
+	margin-top: 0.25cm;
+	border: none;
+	border-bottom: 1px solid #e3e3e3;
+	font-family: Segoe UI Light, Sans Serif;
+	font-size: 18px;
+	outline: none;
+	margin-left: 0.25cm;
+}
+#search_field:hover{
+	border-bottom: 1px solid #1faeff;
+}
+#search_field:focus{
+	border-bottom: 1px solid #008aee;
+}
+#add_new_chat_field{
+	float: right;
+	margin-right: 0.2cm;
+	width: 1cm;
+	height: 1cm;
+	line-height: 0.68cm;
+	text-align: center;
+	border-radius: 50%;
+	margin-top: 0.35cm;
+	color: #008aee;
+	font-family: Segoe UI Light, Sans Serif;
+	font-size: 55px;
+	background-color: none;
+	-webkit-transition: background-color 0.2s, color 0.5s;
+	-moz-transition: background-color 0.2s, color 0.5s;
+	transition: background-color 0.2s, color 0.5s;
+	cursor: pointer;
+}
+#add_new_chat_field:hover{
+	background-color: #008aee;
+	color: #ffffff;
+}
+
+/* chats field */
+.chats_field{
+	width: 90%;
+	min-width: 9.5cm;
+	max-width: 18cm;
+	margin: auto;
+	padding-top: 5cm;
+	margin-bottom: 2cm;
+	min-height: 17cm;
+	height: auto;
+	border-radius: 4px;
+	background-color: #ffffff;
+	border: 1px solid #e3e3e3;
+}
+/* chats menu */
+
+
+/* chats */
+.chat_anchor{
+	text-decoration: none;
+	color: none;
+}
+.chat{
+	width: 100%;
+	height: 1.5cm;
+	cursor: default;
+	display: block;
+	border-bottom: 1px solid #eeeeee;
+}
+.chat{
+	
+}
+.chat:hover{
+	background-color: #eeeeee;
+}
+
+.user_image{
+	width: 1cm;
+	height: 1cm;
+	margin: 0.25cm;
+	float: left;
+	border-radius: 50%;
+}
+.chat_inf1, .chat_inf2{
+	width: 39%;
+	height: 1.48cm;
+	overflow: hidden;
+	
+}
+.chat_inf1{
+	float: left;
+}
+.chat_inf2{
+	float: right;
+	text-align: right;
+}
+@media screen and (max-width: 700px){
+	.chat .chat_inf_field{
+		width: 77%;
+	}
+}
+@media screen and (max-width: 999px) and (min-width: 701px) {
+	.chat .chat_inf_field{
+		width: 83%;
+	}
+}
+@media screen and (min-width: 1000px){
+	.chat .chat_inf_field{
+		width: 88%;
+	}
+}
+.user_name{
+	font-family: Levenim MT;
+	font-size: 13px;
+	cursor: pointer;
+	color: #000000;
+	margin-top: 0.25cm;
+	width: 100%;
+	height: 0.5cm;
+	line-height: 0.5cm;
+}
+
+.msg_own, .msg_friend{
+	width: 100%;
+	font-family: Segoe UI Semilight;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	height: auto;
+}
+.msg_own{
+	color: #3f3f3f;
+}
+.msg_friend{
+	color: #008aee;
+}
+.last_chatted_time{
+	margin-top: 0.2cm;
+	margin-right: 0.9cm;
+	height: 0.5cm;
+	color: #3f3f3f;
+	font-family: Sans Serif;
+	font-size: 13px;
+}
+.chat_notification{
+	margin-right: 0.9cm;
+	border-radius: 50%;
+	font-family: Levenim MT;
+	font-size: 13px;
+	font-weight: bold;
+	color: #008aee;
+	height: auto;
+	margin-top: 0.2cm;
+}
+.delete_anchor{
+	display: inline;
+	float: right;
+	padding: 0px;
+	text-decoration: none;
+	color: #117397;
+	display: none;
+}
+.chat:hover .delete_anchor{
+	display: block;
+}
+.delete_chat_field{
+	width: 0.8cm;
+	height: 0.8cm;
+	line-height: 0.8cm;
+	text-align: center;
+	font-size: 22px;
+	font-family: Levenim MT, Sans Serif;
+	color: #008aee;
+	cursor: pointer;
+	border-radius: 50%;
+	margin-top: 0.1cm;
+	-webkit-transition: background-color 0.2s, color 0.5s;
+	-moz-transition: background-color 0.2s, color 0.5s;
+	transition: background-color 0.2s, color 0.5s;
+	margin-bottom: -0.1cm;
+	margin-left: -30px;
+	position: absolute;
+	display: none;
+}
+.chat:hover .delete_chat_field{
+	display: block;
+}
+.delete_chat_field:hover{
+	color: #ffffff;
+	background-color: #008aee;
+}

@@ -1,0 +1,64 @@
+.bottom{
+	width: 100%;
+	min-height: 1.4cm;
+	max-height: 1.5cm;
+	line-height: 1.4cm;
+	color: #242424;
+	font-family: Segoe UI Semilight;
+	text-align: center;
+	float: left;
+	/*text-shadow: 5px 10px 10px green;*/
+	background-color: #dedede;
+	border-top: 1px solid #cccccc;
+	top: 93%;
+	height: 8%;
+	position: fixed;
+	z-index: 3;
+}
+.bottom #logo{
+	float: left;
+	padding: 0px;
+	width: 1cm;
+	height: 1cm;
+	border-radius: 50%;
+	margin-left: 0.5cm;
+	margin-top: 0.2cm;
+	-webkit-transition: margin-left 0.5s;
+	-moz-transition: margin-left 0.5s;
+	transition: margin-left 0.5s;
+	cursor: pointer;
+}
+.bottom #app_name{
+	float: left;
+	margin-left: 0.2cm;
+	color: #7e7e7e;
+	font-family: Segoe UI, Segoe UI SemiLight;
+	font-size: 25px;
+	cursor: pointer;
+}
+#c_icon{
+	font-size: 20px;
+	display: inline;
+	background: none;
+	font-family: Segoe UI Light;
+}
+#bottom_rights{
+	font-size: 20px;
+	display: inline;
+	background: none;
+}
+.bottom_links{
+	font-size: 20px;
+	display: inline;
+	background: none;
+	margin-left: 1cm;
+}
+.bottom_links a{
+	text-decoration: none;
+	color: #242424;
+}
+.bottom_links a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #454545;
+}

@@ -1,0 +1,134 @@
+.main_body{
+	float: left;
+	width: 70%;
+	min-height: 19cm;
+	height: 96%;
+	margin-top: 4%;
+	margin-left: 0.5cm;
+	background-color: #f4f4f4;/* edeef0-vk, dedede */
+}
+.menu_top{
+	height: 1cm;
+	line-height: 1cm;
+	width: 100%;
+}
+.menu_top_elem{
+	font-family: Segoe UI Light;
+	font-size: 25px;
+	cursor: pointer;
+	color: #454545;
+	text-decoration: none;
+	margin-right: 1cm;
+	margin-left: 1cm;
+	float: left;
+}
+.menu_top_selected_elem{
+	font-family: Segoe UI Light;
+	font-size: 25px;
+	cursor: pointer;
+	color: #008aee;  /* 1faeff */ 
+	text-decoration: none;
+	margin-right: 1cm;
+	margin-left: 1cm;
+	display: inline;
+	float: left;
+}
+#list_option_selected{
+	display: inline;
+	margin-left: 2cm;
+	font-family: Segoe UI Light;
+	font-size: 23px;
+	cursor: pointer;
+	color: #008aee;  /* 1faeff */ 
+	text-decoration: none;
+}
+#list_option{
+	display: inline;
+	margin-left: 2cm;
+	font-family: Segoe UI Light;
+	font-size: 23px;
+	cursor: pointer;
+	color: #454545;
+	text-decoration: none;
+}
+.menu_top_elem:hover, .menu_top_selected_elem:hover, #list_option_selected:hover, #list_option:hover{
+	text-decoration: underline;
+}
+.friends_list{
+	margin-top: 0.2cm;
+	height: 15.2cm;
+	padding-top: 0.3cm;
+	width: 30%;
+	background-color: #ffffff;
+	border-radius: 2px;
+	overflow-X: auto;
+	overflow-Y: none;
+	float: left;
+}
+.friends_informations{
+	float: left;
+	margin-top: 0.2cm;
+	margin-left: 1%;
+	height: 15.5cm;
+	width: 67%;
+	background-color: #ffffff;
+	border-radius: 2px;
+	overflow-X: auto;
+	overflow-Y: none;
+}
+#search_indicator{
+	font-size: 20px;
+	font-family: Segoe UI Semilight;
+	color: #008aee;  /* 1faeff */ 
+	padding-bottom: 0px;
+	cursor: pointer;
+	margin-top: 0.5cm;
+	margin-left: 0.6cm;
+	margin-bottom: 0.5cm;
+}
+#none_found{
+	margin-top: 0.3cm;
+	color: #e3e3e3;
+	font-size: 30px;
+	cursor: pointer;
+}
+#no_image_1{
+	height: 3cm;
+	width: 3cm;
+	margin-left: 41%;
+	margin-top: 4cm;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.basic_informations{
+	width: 97%;
+	margin-bottom: 0.5cm;
+	margin-left: 2%;
+	height: 3.7cm;
+	margin-top: 0.5cm;
+}
+.friends_list .field_back{
+	float: left;
+	width: 1cm;
+	height: 1cm;
+	padding: 0px;
+	border-radius: 50%;
+	margin-top: 0.14cm;
+	border: 3px solid #cfe6f7;
+	margin-right: 3%;
+	margin-left: 0.5cm;
+	background-color: #14d9cd;
+}
+.friends_list .field_back:hover{
+	background-color: #0279cf;
+	border-color: #cfe6f7;
+}
+.friends_list #back_icon{
+	margin-top: 0.2cm;
+	margin-left: 0.15cm;
+	width: 0.7cm;
+	height: 0.6cm;
+}
+.friends_list #search_indicator{
+	margin-top: 0.02cm;
+}

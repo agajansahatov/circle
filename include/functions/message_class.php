@@ -1,0 +1,1 @@
+<?php	class message{		public function __construct(){					}		public function send_mail($to, $topic, $message){			try{				if(mail($to, $topic, $message) === true){					return true;				}else{					return false;				}			}catch(Warning $e){				return false;			}		}	}?>
